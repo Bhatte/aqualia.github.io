@@ -6,11 +6,13 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Products from "./pages/Products";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <Header></Header>
+      {/* <Header></Header> */}
+      <Navbar></Navbar>
       <main className="w-full flex-auto">
         <Routes>
           <Route path="/" element={<Home />} />

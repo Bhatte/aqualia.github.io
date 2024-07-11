@@ -23,12 +23,11 @@ const Highlights = () => {
   return (
     <div className="py-32 max-w-7xl px-6 lg:px-8 ">
       {details.map((detail) => (
-        <div className="py-5 max-w-6xl flex flex-row">
-          <HighlightCard
-            title={detail.title}
-            description={detail.description}
-          />
-        </div>
+        <HighlightCard
+          key={detail.title}
+          title={detail.title}
+          description={detail.description}
+        />
       ))}
     </div>
   );
