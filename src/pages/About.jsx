@@ -15,6 +15,7 @@ const About = () => {
       url: "src/assets/images/dries-vincent.jpg",
     },
   ];
+  const showteam = false;
 
   return (
     // <div className='mx-auto max-w-7xl px-6 lg:px-8 mt-10 sm:mt-20 md:mt-30'>About</div>
@@ -53,30 +54,32 @@ const About = () => {
         </div>
       </div>
       <OurMission />
-      <div>
-        <div className="grid grid-cols-1 gap-6 pt-12 sm:pt-16 lg:grid-cols-4 xl:gap-8">
-          <div>
-            <h2 className="font-display text-xl font-semibold text-neutral-50">
-              Our team
-            </h2>
-          </div>
-          <div className="lg:col-span-4">
-            <ul
-              role="list"
-              className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8"
-            >
-              {team.map((member) => (
-                <TeamMember
-                  key={member.name}
-                  name={member.name}
-                  role={member.role}
-                  url={member.url}
-                />
-              ))}
-            </ul>
+      {showteam && (
+        <div>
+          <div className="grid grid-cols-1 gap-6 pt-12 sm:pt-16 lg:grid-cols-4 xl:gap-8">
+            <div>
+              <h2 className="font-display text-xl font-semibold text-neutral-50">
+                Our team
+              </h2>
+            </div>
+            <div className="lg:col-span-4">
+              <ul
+                role="list"
+                className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8"
+              >
+                {team.map((member) => (
+                  <TeamMember
+                    key={member.name}
+                    name={member.name}
+                    role={member.role}
+                    url={member.url}
+                  />
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

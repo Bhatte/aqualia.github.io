@@ -11,15 +11,15 @@ const OurMission = () => {
         <p>
           Our mission is to pave the way for organizations to excel in an
           increasingly digital world. We are dedicated to making cybersecurity
-          and AI/ML not only accessible but also understandable, even for small
-          to medium-sized businesses. We believe in delivering proactive, custom
+          and AI not only accessible but also understandable, even for small to
+          medium-sized businesses. We believe in delivering proactive, custom
           solutions to secure and future-proof your digital assets, all while
           providing superior customer service to nurture a safe, informed, and
           efficient digital environment.
         </p>
         <p>
           <Link to="/contact" className="hover:underline">
-            'Join us'
+            'Join us'{" "}
           </Link>
           at Aqualia, where your digital security and advancement are our top
           priority.

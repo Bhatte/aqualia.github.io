@@ -47,16 +47,16 @@ const Services = () => {
       <div className="mt-8 text-xl  text-neutral-100">
         <div>
           <h2 className="font-display text-xl font-semibold text-neutral-50">
-            AI/ML Consulting
+            AI Consulting
           </h2>
         </div>
         <div className="space-y-6 ">
           <p className="pt-2">
-            Artificial Intelligence (AI) and Machine Learning (ML) are
-            revolutionizing the way businesses operate, offering unprecedented
-            insights and automation capabilities. Our AI/ML Consulting services
-            bring cutting-edge expertise to your doorstep, transforming complex
-            data into actionable strategies that drive growth and innovation.
+            Artificial Intelligence(AI) is revolutionizing the way businesses
+            operate, offering unprecedented insights and automation
+            capabilities. Our AI Consulting services bring cutting-edge
+            expertise to your doorstep, transforming complex data into
+            actionable strategies that drive growth and innovation.
           </p>
           <div className="px-10">
             <ul className="list-disc">
@@ -65,16 +65,12 @@ const Services = () => {
                 your business objectives.
               </li>
               <li>
-                ML Model Building: Create predictive models that turn data into
-                a competitive advantage.
-              </li>
-              <li>
                 AI-Powered Automation: Implement intelligent systems that
                 enhance productivity and decision-making.
               </li>
               <li>
                 Ongoing Support and Optimization: Provide continuous improvement
-                and maintenance for your AI/ML solutions.
+                and maintenance for your AI solutions.
               </li>
             </ul>
           </div>

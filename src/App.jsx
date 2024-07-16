@@ -7,12 +7,13 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Products from "./pages/Products";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col h-screen justify-between p-8 pb-0">
       {/* <Header></Header> */}
-      <Navbar></Navbar>
+      <Navbar />
       <main className="w-full flex-auto">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -22,7 +23,8 @@ function App() {
           <Route path="/services" element={<Services />} />
         </Routes>
       </main>
-    </>
+      <Footer />
+    </div>
   );
 }
 

@@ -8,7 +8,7 @@ const Products = () => {
       </h1>
       <div className="mt-8 text-xl  text-neutral-100">
         <p className="mb-8">
-          Our AI/ML services have been instrumental across various sectors.
+          Our AI services have been instrumental across various sectors.
         </p>
       </div>
       <div className="mt-8 text-xl  text-neutral-100">
