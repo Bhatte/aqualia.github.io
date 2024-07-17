@@ -21,8 +21,8 @@ const About = () => {
     // <div className='mx-auto max-w-7xl px-6 lg:px-8 mt-10 sm:mt-20 md:mt-30'>About</div>
     <div className="mx-auto max-w-2xl lg:max-w-none px-6 lg:px-8 mt-10 sm:mt-20 md:mt-30">
       <h1>
-        <span className="block font-display font-semibold text-xl text-neutral-50">
-          About us
+        <span className="block font-display font-semibold text-2xl text-neutral-50">
+          About Us
         </span>
         <span className="sr-only"> - </span>
       </h1>
@@ -39,10 +39,10 @@ const About = () => {
           </p>
           <div className="mt-10 max-w-2xl space-y-6 text-xl">
             <p>
-              The company was started by two friends who noticed that developer
-              studios were charging clients double what an in-house team would
-              cost. Since the beginning, we have been committed to doing things
-              differently by charging triple instead.
+              Founded by two security engineers driven by a passion for
+              security, AI, and technology, our company is fueled by a
+              relentless curiosity to solve problems using the most cutting-edge
+              technology available..
             </p>
             {/* <p>
               At Studio, we’re more than just colleagues — we’re a family. This

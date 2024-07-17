@@ -6,12 +6,11 @@ const Hero = () => {
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-50 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in Ireland.
+            Building a Secure, Intelligent Tomorrow.
           </h1>
           <p className="mt-6 text-xl text-neutral-100">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+            We are a cyber studio working towards solving problems using
+            cutting-edge technologies in Cybersecurity & AI space.
           </p>
         </div>
       </div>

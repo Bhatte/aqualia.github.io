@@ -2,7 +2,7 @@ import React from "react";
 
 const HighlightCard = (props) => {
   return (
-    <div className="py-5 max-w-6xl flex flex-col lg:flex-row">
+    <div className="py-5 flex flex-col lg:flex-row">
       <h3 className="pt-3 font-semibold text-lg text-gray-50 basis-2/5 lg:self-center">
         {props.title}
       </h3>
