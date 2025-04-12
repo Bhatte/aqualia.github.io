@@ -7,7 +7,7 @@ const OurMission = () => {
       <h2 className="font-display text-xl font-semibold text-neutral-50">
         Our Mission
       </h2>
-      <div className="mt-8 max-w-2xl space-y-6 text-xl  text-neutral-100">
+      <div className="mt-8 space-y-6 text-lg text-neutral-100">
         <p>
           Our mission is to pave the way for organizations to excel in an
           increasingly digital world. We are dedicated to making cybersecurity

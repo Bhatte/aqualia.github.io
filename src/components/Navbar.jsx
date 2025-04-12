@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
   const [mobilemenushow, setMobileMenustate] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div className="px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
             {/* <!-- Mobile menu button--> */}
@@ -77,28 +78,28 @@ const Navbar = () => {
               <div className="flex space-x-4">
                 <Link
                   to="/about"
-                  className="text-neutral-50 hover:text-white py-2"
+                  className="text-neutral-50 hover:text-white py-2 transition-colors duration-300"
                   prefetch={false}
                 >
                   Who are we
                 </Link>
                 <Link
                   to="/services"
-                  className="text-neutral-50 hover:text-white py-2"
+                  className="text-neutral-50 hover:text-white py-2 transition-colors duration-300"
                   prefetch={false}
                 >
                   How can we help
                 </Link>
                 <Link
                   to="/products"
-                  className="text-neutral-50 hover:text-white py-2"
+                  className="text-neutral-50 hover:text-white py-2 transition-colors duration-300"
                   prefetch={false}
                 >
                   Products we built
                 </Link>
                 <Link
                   to="/contact"
-                  className="text-neutral-50 hover:text-white py-2"
+                  className="text-neutral-50 hover:text-white py-2 transition-colors duration-300"
                   prefetch={false}
                 >
                   Contact us
@@ -123,44 +124,50 @@ const Navbar = () => {
       </div>
 
       {/* <!-- Mobile menu, show/hide based on menu state. --> */}
-      {mobilemenushow && (
-        <div
-          className="md:hidden transition ease-out duration-100"
-          id="mobile-menu"
-        >
-          <div className="space-y-1 px-2 pb-3 pt-2">
-            {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-            <Link
-              to="/about"
-              className="block text-neutral-50 hover:text-white px-3 py-2"
-              prefetch={false}
-            >
-              Who are we
-            </Link>
-            <Link
-              to="/services"
-              className="block text-neutral-50 hover:text-white px-3 py-2"
-              prefetch={false}
-            >
-              How can we help
-            </Link>
-            <Link
-              to="/products"
-              className="block text-neutral-50 hover:text-white px-3 py-2"
-              prefetch={false}
-            >
-              Products we built
-            </Link>
-            <Link
-              to="/contact"
-              className="block text-neutral-50 hover:text-white px-3 py-2"
-              prefetch={false}
-            >
-              Contact us
-            </Link>
-          </div>
-        </div>
-      )}
+      <AnimatePresence>
+        {mobilemenushow && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="md:hidden"
+            id="mobile-menu"
+          >
+            <div className="space-y-1 px-2 pb-3 pt-2">
+              {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
+              <Link
+                to="/about"
+                className="block text-neutral-50 hover:text-white px-3 py-2 transition-colors duration-300"
+                prefetch={false}
+              >
+                Who are we
+              </Link>
+              <Link
+                to="/services"
+                className="block text-neutral-50 hover:text-white px-3 py-2 transition-colors duration-300"
+                prefetch={false}
+              >
+                How can we help
+              </Link>
+              <Link
+                to="/products"
+                className="block text-neutral-50 hover:text-white px-3 py-2 transition-colors duration-300"
+                prefetch={false}
+              >
+                Products we built
+              </Link>
+              <Link
+                to="/contact"
+                className="block text-neutral-50 hover:text-white px-3 py-2 transition-colors duration-300"
+                prefetch={false}
+              >
+                Contact us
+              </Link>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 };

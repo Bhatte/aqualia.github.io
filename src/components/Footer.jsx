@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="mt-16">
-      <div className="p-4 text-center transition-colors duration-500">
-        <span>© 2024 Copyright : </span>
-        <Link class="font-semibold text-primary dark:text-white" to="/">
+      <div className="p-4 text-center text-neutral-400">
+        <span>© 2025 Copyright : </span>
+        <Link className="font-semibold text-neutral-50 hover:text-neutral-200 transition-colors duration-300" to="/">
           Aqualia.ie
         </Link>
       </div>
