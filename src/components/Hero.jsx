@@ -17,7 +17,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-display text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight text-neutral-50 [text-wrap:balance]"
           >
-            Building a Secure, Intelligent Tomorrow.
+            Securing Your Digital Future with Intelligence
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -25,8 +25,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="mt-6 text-lg md:text-xl text-neutral-100"
           >
-            We are a cyber studio working towards solving problems using
-            cutting-edge technologies in Cybersecurity & AI space.
+            Where cybersecurity expertise meets AI innovation. We transform potential 
+            vulnerabilities into unbreakable strengths, creating intelligent solutions 
+            that protect and propel your business forward.
           </motion.p>
         </div>
       </div>

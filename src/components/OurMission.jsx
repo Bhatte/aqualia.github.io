@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from "./ui/Button";
 
 const OurMission = () => {
   return (
@@ -7,23 +8,31 @@ const OurMission = () => {
       <h2 className="font-display text-xl font-semibold text-neutral-50">
         Our Mission
       </h2>
+      
       <div className="mt-8 space-y-6 text-lg text-neutral-100">
         <p>
-          Our mission is to pave the way for organizations to excel in an
-          increasingly digital world. We are dedicated to making cybersecurity
-          and AI not only accessible but also understandable, even for small to
-          medium-sized businesses. We believe in delivering proactive, custom
-          solutions to secure and future-proof your digital assets, all while
-          providing superior customer service to nurture a safe, informed, and
-          efficient digital environment.
+          Our mission is to democratize world-class cybersecurity and AI capabilities, 
+          making them accessible and actionable for organizations at every stage of growth. 
+          In an increasingly complex digital landscape, we stand as the bridge between advanced 
+          technology and practical business implementation—translating sophisticated solutions 
+          into clear competitive advantages for our clients.
         </p>
+        
         <p>
-          <Link to="/contact" className="hover:underline">
-            'Join us'{" "}
-          </Link>
-          at Aqualia, where your digital security and advancement are our top
-          priority.
+          We're committed to proactive protection that anticipates threats before they emerge, 
+          and AI implementations that deliver concrete ROI. Every engagement is guided by our 
+          core belief: that security and innovation are not technical exercises, but business 
+          imperatives that require precision, expertise, and strategic vision.
         </p>
+        
+        <div className="mt-8">
+          <Button
+            to="/contact"
+            type="primary"
+          >
+            Partner with us today
+          </Button>
+        </div>
       </div>
     </div>
   );

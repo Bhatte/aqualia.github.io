@@ -5,11 +5,14 @@ const Products = () => {
     <div className="mx-auto px-6 lg:px-8 mt-10 sm:mt-20 md:mt-30">
       <div className="max-w-4xl mx-auto">
         <h1 className="font-display text-2xl font-semibold text-neutral-50">
-          Products
+          Our Solutions
         </h1>
         <div className="mt-8 text-lg text-neutral-100">
           <p className="mb-8">
-            Our AI services have been instrumental across various sectors.
+            Beyond our consulting services, we've developed innovative products that solve 
+            specific challenges with our unique blend of security expertise and AI capabilities.
+            Each solution represents our commitment to creating technology that delivers 
+            immediate, tangible value.
           </p>
         </div>
         <div className="mt-12">
@@ -20,21 +23,29 @@ const Products = () => {
           </div>
           <div className="mt-4 text-lg text-neutral-100">
             <p>
-              Gradience is a system that assists teachers in grading
-              assignments, performing the majority of the labour-intensive tasks.
-              It provides confidence to institutions of unbiased grading towards
-              their students. Assignments and papers can be graded 10-100x faster,
-              ensuring impartial evaluation and delivering comprehensive feedback
-              of superior quality.
+              Gradience revolutionizes the academic assessment process by intelligently automating 
+              the grading workflow. Powered by state-of-the-art AI, it reduces grading time by up to 90% 
+              while increasing accuracy and consistency. The system analyzes both qualitative and 
+              quantitative aspects of student work, providing fair evaluations and detailed, constructive 
+              feedback that helps students understand precisely how to improve.
             </p>
-            <p className="mt-2">
+            <div className="mt-4 space-y-3">
+              <p><span className="font-medium">Key benefits:</span></p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Dramatically reduces instructor workload while improving feedback quality</li>
+                <li>Ensures consistent evaluation standards across all submissions</li>
+                <li>Provides students with specific, actionable improvement guidance</li>
+                <li>Scales effortlessly from small classes to large institutions</li>
+              </ul>
+            </div>
+            <p className="mt-6">
               <a 
                 href="https://gradience.ie" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 transition-colors duration-300"
+                className="text-neutral-400 hover:text-neutral-200 transition-colors duration-300 font-medium"
               >
-                Visit Gradience Website
+                Explore Gradience →
               </a>
             </p>
           </div>
@@ -47,13 +58,20 @@ const Products = () => {
           </div>
           <div className="mt-4 text-lg text-neutral-100">
             <p>
-              WatsTheStory is a platform that allows users to experience news like
-              never before on WhatsApp. It offers a single platform to avoid the
-              clutter of multiple apps and unwanted spam, options for news
-              delivery times that fit unique schedules, the ability to have
-              content read in a preferred voice, and a curated feed that
-              highlights only the topics that truly interest users.
+              WatsTheStory transforms how people consume news by bringing personalized, 
+              high-quality content directly to WhatsApp. Our AI-powered platform cuts through 
+              information overload, delivering only the news that matters to you, when you want it, 
+              and in your preferred format—including voice narration for on-the-go consumption.
             </p>
+            <div className="mt-4 space-y-3">
+              <p><span className="font-medium">Key features:</span></p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Smart content curation that learns your interests and priorities</li>
+                <li>Flexible delivery scheduling that fits your daily routine</li>
+                <li>Voice narration with customizable reader preferences</li>
+                <li>Zero-clutter experience with no ads or distractions</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

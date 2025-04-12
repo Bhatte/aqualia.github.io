@@ -21,36 +21,32 @@ const About = () => {
     // <div className='mx-auto max-w-7xl px-6 lg:px-8 mt-10 sm:mt-20 md:mt-30'>About</div>
     <div className="mx-auto px-6 lg:px-8 mt-10 sm:mt-20 md:mt-30">
       <div className="max-w-4xl mx-auto">
-        <h1>
-          <span className="block font-display font-semibold text-2xl text-neutral-50">
-            About Us
-          </span>
-          <span className="sr-only"> - </span>
-        </h1>
         <div>
           <h2>
-            <span className="mt-6 block font-display text-5xl sm:text-6xl font-medium tracking-tight text-neutral-50 [text-wrap:balance]">
-              We're Aqualia
+            <span className="block font-display text-5xl sm:text-6xl font-medium tracking-tight text-neutral-50 [text-wrap:balance]">
+              The Aqualia Difference
             </span>
           </h2>
           <div className="mt-6 text-xl text-neutral-100">
             <p>
-              We believe that our strength lies in our collaborative approach,
-              which puts our clients at the center of everything we do.
+              Where technical excellence meets practical business value. Our clients don't just 
+              receive security services—they gain a strategic partner invested in their success.
             </p>
             <div className="mt-10 space-y-6 text-lg">
               <p>
-                Founded by two security engineers driven by a passion for
-                security, AI, and technology, our company is fueled by a
-                relentless curiosity to solve problems using the most cutting-edge
-                technology available.
+                Founded by security engineers with deep expertise in critical infrastructure protection 
+                and AI development, Aqualia emerged from a simple realization: organizations of 
+                all sizes deserve enterprise-grade security and intelligent technology solutions, 
+                delivered with clarity and purpose. Our team combines specialized knowledge in advanced 
+                threat mitigation with a pragmatic approach to implementation that prioritizes your 
+                business objectives.
               </p>
-              {/* <p>
-                At Studio, we're more than just colleagues — we're a family. This
-                means we pay very little and expect people to work late. We want
-                our employees to bring their whole selves to work. In return, we
-                just ask that they keep themselves there until at least 6:30pm.
-              </p> */}
+              <p>
+                What sets us apart is our holistic perspective—we view cybersecurity and AI not as 
+                isolated technical functions, but as core business enablers that, when implemented 
+                thoughtfully, create competitive advantage and open new possibilities for growth and 
+                innovation.
+              </p>
             </div>
           </div>
         </div>
