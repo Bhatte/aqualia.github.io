@@ -29,7 +29,7 @@ const Highlights = () => {
     {
       title: "Time-Tested Security Expertise",
       description:
-        "At Aqualia, we're not just consultants—we're security architects with battle-tested experience safeguarding mission-critical systems, including international airport infrastructure. Our approach combines deep technical expertise with strategic foresight, allowing us to detect vulnerabilities that others miss and build defense systems that evolve ahead of emerging threats."
+        "At Aqualia, we're not just consultants—we're security architects with battle-tested experience safeguarding mission-critical systems, including international airport infrastructure. Our approach combines deep technical expertise with strategic foresight."
     },
     {
       title: "Tailored Protection for Growing Businesses",

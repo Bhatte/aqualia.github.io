@@ -10,7 +10,7 @@ const Services = () => {
         
         <div className="mt-8 text-lg text-neutral-100">
           <p>
-            We deliver precision-engineered solutions built on deep expertise and real-world experience. 
+            We deliver solutions built on deep expertise and real-world experience. 
             Every service is tailored to your specific business context—because effective security and AI 
             implementation isn't about applying generic templates, but crafting strategies that align with 
             your unique objectives.

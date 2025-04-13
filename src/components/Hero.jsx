@@ -15,9 +15,9 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="font-display text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight text-neutral-50 [text-wrap:balance]"
+            className="font-display text-4xl sm:text-5xl md:text-5xl font-medium tracking-tight text-neutral-50"
           >
-            Securing Your Digital Future with Intelligence
+            <span className="whitespace-nowrap">Enterprise-Grade Security.</span> <span className="whitespace-nowrap">AI-Powered Insights.</span> <span className="whitespace-nowrap">Scaled for You.</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -25,9 +25,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="mt-6 text-lg md:text-xl text-neutral-100"
           >
-            Where cybersecurity expertise meets AI innovation. We transform potential 
-            vulnerabilities into unbreakable strengths, creating intelligent solutions 
-            that protect and propel your business forward.
+            We bring sophisticated cybersecurity and practical AI solutions to growing businesses, acting as your dedicated partner in navigating the digital frontier securely and intelligently.
           </motion.p>
         </div>
       </div>
