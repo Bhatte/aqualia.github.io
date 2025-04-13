@@ -33,11 +33,6 @@ const Services = () => {
             <div className="pl-6">
               <ul className="list-disc space-y-2">
                 <li>
-                  <span className="font-medium">Threat Intelligence & Risk Modeling:</span> Predictive identification of 
-                  vulnerabilities specific to your business model and technology stack, with prioritized 
-                  remediation pathways.
-                </li>
-                <li>
                   <span className="font-medium">Security Architecture Design:</span> Custom security frameworks aligned with 
                   business workflows that balance robust protection with operational efficiency.
                 </li>
